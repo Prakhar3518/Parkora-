@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment files (keep the .example templates)
+.env
+.env.*
+!.env.example
+
+# Logs & local DBs
+*.log
+npm-debug.log*
+*.sqlite
+*.sqlite3
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
